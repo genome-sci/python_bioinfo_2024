@@ -26,29 +26,29 @@
 
 ## プログラム実行環境の準備
 
-### miniconda 仮想環境へのインストール
-miniconda は[公式ウェブサイト](https://docs.anaconda.com/free/miniconda/)の手順等に従ってインストールしてください。miniconda のかわりに Anaconda、miniforge、micromamba 等を使っても構いません。
+### miniforge 仮想環境へのインストール
+miniforge は[公式ウェブサイト](https://github.com/conda-forge/miniforge)の手順等に従ってインストールしてください。miniforge のかわりに Anaconda、miniconda、micromamba 等を使っても構いません。
 
 - 仮想環境の作成  
-`pags2024` という名称で仮想環境を作成し、Python 3.12 をインストールします。
+`pags2024` という名称で仮想環境を作成し、Python 3.12 をインストールします。Anaconda/miniconda を使用している場合には `mamba` コマンドの代わりに `conda` コマンドを使用してください。
 ```
-conda create -n pags2024 python=3.12
+mamba create -n pags2024 python=3.12
 # 仮想環境の有効化
-conda activate pags2024
+mamba activate pags2024
 ```
-仮想環境から抜けるには `conda deactivate` を実行します。
+仮想環境から抜けるには `mamba deactivate` を実行します。
 
 - モジュールのインストール  
 仮想環境 `pags2024` を有効化した状態で行なってください。
 ```
-conda install -c conda-forge jupyter
-conda install -c bioconda biopython bcbiogff
-conda install -c conda-forge matplotlib-venn
-conda install -c conda-forge scanpy python-igraph leidenalg
-conda install -c conda-forge scvi-tools
-conda install -c bioconda scvelo
-conda install -c conda-forge -c bioconda cellrank
-conda install -c conda-forge scikit-misc
+mamba install -c conda-forge jupyter
+mamba install -c bioconda biopython bcbio-gff
+mamba install -c conda-forge matplotlib-venn
+mamba install -c conda-forge scanpy python-igraph leidenalg
+mamba install -c conda-forge scvi-tools
+mamba install -c bioconda scvelo
+mamba install -c conda-forge -c bioconda cellrank
+mamba install -c conda-forge scikit-misc
 ```
 
 - Jupyter notebookの起動
