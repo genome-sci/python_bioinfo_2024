@@ -2,8 +2,8 @@
 FROM --platform=linux/amd64 condaforge/miniforge3:24.11.3-0
 
 
-# Create the conda environment with Python 3.12
-RUN mamba create -n pags2024 python=3.12
+# Create the conda environment with Python 3.11
+RUN mamba create -n pags2024 python=3.11
 
 # Initialize conda in bash shell
 # RUN, CMD, ENTRYPOINTが実行される際のshellを指定
@@ -15,14 +15,14 @@ RUN mamba install -c conda-forge jupyter && \
     mamba install -c conda-forge matplotlib matplotlib-venn pandas seaborn && \
     mamba install -c bioconda biopython bcbio-gff
 
-# This part does not work when using python 3.12. Use 3.11 instead.
 # Install libraries for sc-seq analysis, if necessary.
+RUN mamba install -c bioconda -c conda-forge scanpy python-igraph leidenalg scvi-tools scvelo cellrank scikit-misc
 # RUN mamba install -c conda-forge scanpy python-igraph leidenalg && \
 #     mamba install -c conda-forge scvi-tools && \
 #     mamba install -c bioconda scvelo && \
 #     mamba install -c conda-forge -c bioconda cellrank && \
 #     mamba install -c conda-forge scikit-misc
-    
+
 
 # Make port 8888 available to the world outside this container
 EXPOSE 8888
