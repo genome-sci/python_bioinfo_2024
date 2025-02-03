@@ -8,7 +8,7 @@
     オンライン開催(Zoom webinar)
 
 ## スケジュール（予定）：講習内容とスケジュールは多少変更になる場合があります。
-【2月6日：1日目】	
+【2月6日：1日目】
 - 12：30～12：40　講習会説明
 - 12：40～13：50　[1-1 生成AI時代のPythonプログラミング](https://github.com/genome-sci/python_bioinfo_2024/tree/main/1-1)
 - 14：00～15：30　[1-2 Jupyter notebook、Biopythonを用いた処理](https://github.com/genome-sci/python_bioinfo_2024/tree/main/1-2)
@@ -29,16 +29,16 @@
 ### miniforge 仮想環境へのインストール
 miniforge は[公式ウェブサイト](https://github.com/conda-forge/miniforge)の手順等に従ってインストールしてください。miniforge のかわりに Anaconda、miniconda、micromamba 等を使っても構いません。
 
-- 仮想環境の作成  
-`pags2024` という名称で仮想環境を作成し、Python 3.12 をインストールします。Anaconda/miniconda を使用している場合には `mamba` コマンドの代わりに `conda` コマンドを使用してください。
+- 仮想環境の作成
+`pags2024` という名称で仮想環境を作成し、Python 3.11 をインストールします。Anaconda/miniconda を使用している場合には `mamba` コマンドの代わりに `conda` コマンドを使用してください。
 ```
-mamba create -n pags2024 python=3.12
+mamba create -n pags2024 python=3.11
 # 仮想環境の有効化
 mamba activate pags2024
 ```
 仮想環境から抜けるには `mamba deactivate` を実行します。
 
-- モジュールのインストール  
+- モジュールのインストール
 仮想環境 `pags2024` を有効化した状態で行なってください。
 ```
 mamba install -c conda-forge jupyter
