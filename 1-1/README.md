@@ -5,6 +5,8 @@
 - Anthropic Claude 3.5 Sonnet
 - Google Gemini 2.0 Flash
 - HuggingChat (オープンソースのLLM：Llama 3.3やDeepSeek R1等）
+
 になります。
+
 チャット型生成AIとのやり取りには、Google ChromeまたはFirefoxブラウザを使用します。
 
