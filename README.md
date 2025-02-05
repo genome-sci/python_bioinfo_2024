@@ -10,15 +10,15 @@
 ## スケジュール（予定）：講習内容とスケジュールは多少変更になる場合があります。
 【2月6日：1日目】
 - 12：30～12：40　講習会説明
-- 12：40～13：50　[1-1 生成AI時代のPythonプログラミング](https://github.com/genome-sci/python_bioinfo_2024/tree/main/1-1)
-- 14：00～15：30　[1-2 Jupyter notebook、Biopythonを用いた処理](https://github.com/genome-sci/python_bioinfo_2024/tree/main/1-2)
-- 15：40～16：10　[1-3 Numpy](https://github.com/genome-sci/python_bioinfo_2024/tree/main/1-3)
+- 12：40～13：50　[1-1 生成AI時代のPythonプログラミング　遺伝研　森宙史](https://github.com/genome-sci/python_bioinfo_2024/tree/main/1-1)
+- 14：00～15：30　[1-2 Jupyter notebook、Biopythonを用いた処理　遺伝研　谷澤靖洋](https://github.com/genome-sci/python_bioinfo_2024/tree/main/1-2)
+- 15：40～16：10　[1-3 Numpy　遺伝研　東光一](https://github.com/genome-sci/python_bioinfo_2024/tree/main/1-3)
 - 16：10～17：10　[1-4 表形式ファイルの処理（Pandas）　遺伝研　坂本美佳](https://github.com/genome-sci/python_bioinfo_2024/tree/main/1-4)
 - 17：10～18：00　質疑応答
 
 【2月7日：2日目】
-- 9：20〜10：50　[2-1 視覚化 (matplotlib, seaborn)](https://github.com/genome-sci/python_bioinfo_2024/tree/main/2-1)
-- 11：00〜12：30　[2-2 Pythonを用いたシングルセルRNA-seq解析（基礎）](https://github.com/genome-sci/python_bioinfo_2024/tree/main/2-2)
+- 9：20〜10：50　[2-1 視覚化 (matplotlib, seaborn)　遺伝研　黒川真臣](https://github.com/genome-sci/python_bioinfo_2024/tree/main/2-1)
+- 11：00〜12：30　[2-2 Pythonを用いたシングルセルRNA-seq解析（基礎）　遺伝研　東光一](https://github.com/genome-sci/python_bioinfo_2024/tree/main/2-2)
 - 12：30〜13：20　昼食休憩
 - 13：20〜15：00　[2-3 Pythonを用いたシングルセルRNA-seq解析（発展）](https://github.com/genome-sci/python_bioinfo_2024/tree/main/2-3)
 - 15：00～16：00　質疑応答
