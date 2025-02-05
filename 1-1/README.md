@@ -46,6 +46,7 @@ Transformerの論文が発表された2017年からまだ10年も経過してい
   - 再現性の問題
   - 最新情報では無い
   - ハルシネーション
+  - 一度で完璧な応答を期待しない
 <br><br>
 
 ## 用語の定義
@@ -135,3 +136,12 @@ temperatureを2に設定して答えてください。
 temperatureを0に設定して答えてください。
 ```
 という一行を追加すると良いが、プログラミングではほぼ使わない。
+<br><br>
+## AIペアプログラミングツール
+Pythonプログラムを頻繁に書く必要がある場合は、ソースコードエディタと連携したAIペアプログラミングツールが有用である。<br>
+その代表例は、ソースコードエディタである
+[Visual Studio Code](https://code.visualstudio.com/)とAIペアプログラミングツール[GitHub Copilot](https://github.com/features/copilot)の組み合わせである。<br>
+GitHub Copilotは2024年12月中旬以降、機能的な制限はあるものの、[無料での利用が可能](https://github.blog/jp/2024-12-19-github-copilot-in-vscode-free/)
+となり、爆発的に利用者が増えている。<br>
+GitHub Copilotの利用にはGitHubアカウントが必要である。<br>
+VSCode上でExtensionsとしてGitHub Copilotを利用することで、コードの補完やチャットでのプログラム生成・デバッグ等の機能をVSCode内で完結して使用でき、日々のコーディングの効率が向上するため、プログラムを書く頻度が高い方にはお勧めである。<br>
