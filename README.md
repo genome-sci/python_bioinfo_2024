@@ -25,6 +25,8 @@
 
 
 ## プログラム実行環境の準備
+本講習会では Linux/Mac 環境で miniforge を使って必要なライブラリをインストールして実行することを想定しています。  
+Windows をご使用の場合、WSL2 を使った Linux 環境か Linux の仮想マシンで実行環境を用意してください。
 
 ### miniforge 仮想環境へのインストール
 miniforge は[公式ウェブサイト](https://github.com/conda-forge/miniforge)の手順等に従ってインストールしてください。miniforge のかわりに Anaconda、miniconda、micromamba 等を使っても構いません。
