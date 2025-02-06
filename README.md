@@ -20,7 +20,7 @@
 - 9：20〜10：50　[2-1 視覚化 (matplotlib, seaborn)　遺伝研　黒川真臣](https://github.com/genome-sci/python_bioinfo_2024/tree/main/2-1)
 - 11：00〜12：30　[2-2 Pythonを用いたシングルセルRNA-seq解析（基礎）　遺伝研　東光一](https://github.com/genome-sci/python_bioinfo_2024/tree/main/2-2)
 - 12：30〜13：20　昼食休憩
-- 13：20〜15：00　[2-3 Pythonを用いたシングルセルRNA-seq解析（発展）](https://github.com/genome-sci/python_bioinfo_2024/tree/main/2-3)
+- 13：20〜15：00　[2-3 Pythonを用いたシングルセルRNA-seq解析（発展）　遺伝研　東光一](https://github.com/genome-sci/python_bioinfo_2024/tree/main/2-2)
 - 15：00～16：00　質疑応答
 
 
