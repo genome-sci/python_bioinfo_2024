@@ -145,3 +145,7 @@ GitHub Copilotは2024年12月中旬以降、機能的な制限はあるものの
 となり、爆発的に利用者が増えている。<br>
 GitHub Copilotの利用にはGitHubアカウントが必要である。<br>
 VSCode上でExtensionsとしてGitHub Copilotを利用することで、コードの補完やチャットでのプログラム生成・デバッグ等の機能をVSCode内で完結して使用でき、日々のコーディングの効率が向上するため、プログラムを書く頻度が高い方にはお勧めである。<br>
+
+## 参考図書
+- [GitHub Copilot×Python入門](https://www.amazon.co.jp/GitHub-Copilot%C3%97Python%E5%85%A5%E9%96%80-%E5%A2%97%E7%94%B0-%E6%99%BA%E6%98%8E/dp/4296070975) 増田　智明著　日経BP社 2025年1月発売
+
