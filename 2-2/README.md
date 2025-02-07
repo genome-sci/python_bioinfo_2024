@@ -19,3 +19,8 @@ PythonによるシングルセルRNA-seq解析。
 5. CellRank (Trajectory解析)
 
 [HTML資料へのリンク](https://khigashi1987.github.io/scRNAseq_handson_2024/Python_scRNAseq_2.html)
+
+
+### ラベル転移のリファレンスデータ・解析後データ
+
+http://palaeo.nig.ac.jp/Resources/PAGSTutorial2024/
